@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16DA5EFC7EC05F3DCCF4EF0B /* Pods_SmackAttack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10FB83C6F6B1948CC3359BFA /* Pods_SmackAttack.framework */; };
+		4941D6E520B62EB900E7D59D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4941D6E420B62EB900E7D59D /* AppDelegate.swift */; };
+		4941D6E720B62EB900E7D59D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4941D6E620B62EB900E7D59D /* ViewController.swift */; };
+		4941D6EA20B62EB900E7D59D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4941D6E820B62EB900E7D59D /* Main.storyboard */; };
+		4941D6EC20B62EBB00E7D59D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4941D6EB20B62EBB00E7D59D /* Assets.xcassets */; };
+		4941D6EF20B62EBB00E7D59D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4941D6ED20B62EBB00E7D59D /* LaunchScreen.storyboard */; };
+		49C6358820B7210500B41886 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C6358620B7210500B41886 /* SWRevealViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10FB83C6F6B1948CC3359BFA /* Pods_SmackAttack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmackAttack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4941D6E120B62EB900E7D59D /* SmackAttack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmackAttack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4941D6E420B62EB900E7D59D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4941D6E620B62EB900E7D59D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4941D6E920B62EB900E7D59D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4941D6EB20B62EBB00E7D59D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4941D6EE20B62EBB00E7D59D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4941D6F020B62EBB00E7D59D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49C6358520B7210400B41886 /* SmackAttack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmackAttack-Bridging-Header.h"; sourceTree = "<group>"; };
+		49C6358620B7210500B41886 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../Smack Assets/SWReveal/SWRevealViewController.m"; sourceTree = "<group>"; };
+		49C6358720B7210500B41886 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../Smack Assets/SWReveal/SWRevealViewController.h"; sourceTree = "<group>"; };
+		51C52F1C5E6CDED29EDE8D92 /* Pods-SmackAttack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmackAttack.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmackAttack/Pods-SmackAttack.release.xcconfig"; sourceTree = "<group>"; };
+		79FF6234772D10F8C54C23F2 /* Pods-SmackAttack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmackAttack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmackAttack/Pods-SmackAttack.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4941D6DE20B62EB900E7D59D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16DA5EFC7EC05F3DCCF4EF0B /* Pods_SmackAttack.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48382B10CFC2E52DC8B71B0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79FF6234772D10F8C54C23F2 /* Pods-SmackAttack.debug.xcconfig */,
+				51C52F1C5E6CDED29EDE8D92 /* Pods-SmackAttack.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4941D6D820B62EB900E7D59D = {
+			isa = PBXGroup;
+			children = (
+				4941D6E320B62EB900E7D59D /* SmackAttack */,
+				4941D6E220B62EB900E7D59D /* Products */,
+				48382B10CFC2E52DC8B71B0F /* Pods */,
+				6DF403A38318E2BCE81DD507 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4941D6E220B62EB900E7D59D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4941D6E120B62EB900E7D59D /* SmackAttack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4941D6E320B62EB900E7D59D /* SmackAttack */ = {
+			isa = PBXGroup;
+			children = (
+				49C6358420B720DA00B41886 /* Supporting Files */,
+				4941D6E420B62EB900E7D59D /* AppDelegate.swift */,
+				4941D6E620B62EB900E7D59D /* ViewController.swift */,
+				4941D6E820B62EB900E7D59D /* Main.storyboard */,
+				4941D6EB20B62EBB00E7D59D /* Assets.xcassets */,
+				4941D6ED20B62EBB00E7D59D /* LaunchScreen.storyboard */,
+				4941D6F020B62EBB00E7D59D /* Info.plist */,
+			);
+			path = SmackAttack;
+			sourceTree = "<group>";
+		};
+		49C6358420B720DA00B41886 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49C6358720B7210500B41886 /* SWRevealViewController.h */,
+				49C6358620B7210500B41886 /* SWRevealViewController.m */,
+				49C6358520B7210400B41886 /* SmackAttack-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DF403A38318E2BCE81DD507 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10FB83C6F6B1948CC3359BFA /* Pods_SmackAttack.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4941D6E020B62EB900E7D59D /* SmackAttack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4941D6F320B62EBB00E7D59D /* Build configuration list for PBXNativeTarget "SmackAttack" */;
+			buildPhases = (
+				8EBEF731C7872A94C9608C39 /* [CP] Check Pods Manifest.lock */,
+				4941D6DD20B62EB900E7D59D /* Sources */,
+				4941D6DE20B62EB900E7D59D /* Frameworks */,
+				4941D6DF20B62EB900E7D59D /* Resources */,
+				E17A1A2F3F94C2A4DC2E09AB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmackAttack;
+			productName = SmackAttack;
+			productReference = 4941D6E120B62EB900E7D59D /* SmackAttack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4941D6D920B62EB900E7D59D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Andrew Ramirez";
+				TargetAttributes = {
+					4941D6E020B62EB900E7D59D = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = 4941D6DC20B62EB900E7D59D /* Build configuration list for PBXProject "SmackAttack" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4941D6D820B62EB900E7D59D;
+			productRefGroup = 4941D6E220B62EB900E7D59D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4941D6E020B62EB900E7D59D /* SmackAttack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4941D6DF20B62EB900E7D59D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4941D6EF20B62EBB00E7D59D /* LaunchScreen.storyboard in Resources */,
+				4941D6EC20B62EBB00E7D59D /* Assets.xcassets in Resources */,
+				4941D6EA20B62EB900E7D59D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8EBEF731C7872A94C9608C39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmackAttack-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E17A1A2F3F94C2A4DC2E09AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SmackAttack/Pods-SmackAttack-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmackAttack/Pods-SmackAttack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4941D6DD20B62EB900E7D59D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4941D6E720B62EB900E7D59D /* ViewController.swift in Sources */,
+				4941D6E520B62EB900E7D59D /* AppDelegate.swift in Sources */,
+				49C6358820B7210500B41886 /* SWRevealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4941D6E820B62EB900E7D59D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4941D6E920B62EB900E7D59D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4941D6ED20B62EBB00E7D59D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4941D6EE20B62EBB00E7D59D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4941D6F120B62EBB00E7D59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4941D6F220B62EBB00E7D59D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4941D6F420B62EBB00E7D59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79FF6234772D10F8C54C23F2 /* Pods-SmackAttack.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmackAttack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alramirez.SmackAttack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmackAttack/Supporting Files/SmackAttack-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4941D6F520B62EBB00E7D59D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51C52F1C5E6CDED29EDE8D92 /* Pods-SmackAttack.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmackAttack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alramirez.SmackAttack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmackAttack/Supporting Files/SmackAttack-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4941D6DC20B62EB900E7D59D /* Build configuration list for PBXProject "SmackAttack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4941D6F120B62EBB00E7D59D /* Debug */,
+				4941D6F220B62EBB00E7D59D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4941D6F320B62EBB00E7D59D /* Build configuration list for PBXNativeTarget "SmackAttack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4941D6F420B62EBB00E7D59D /* Debug */,
+				4941D6F520B62EBB00E7D59D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4941D6D920B62EB900E7D59D /* Project object */;
+}
